@@ -1,633 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Advent Calendar 2017</title>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Advent Calendar Coding Log - Xmas 2017">
-  <!-- <meta name="description" content="Hexa Template by Codin @ Codesmite.com"> -->
-  <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-  <div id="sidebar"> 
- <!-- 
-  <img src="images/snowflakes-banner.png" alt=""/>
-  -->    
-    <div id="sidebar__portrait">
+  <head>
+	<title>Advent Calendar</title>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Advent Calendar Coding Log - Xmas 2017">
+      <!-- <meta name="description" content="Hexa Template by Codin @ Codesmite.com"> -->
+      <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
+      <link rel="stylesheet" type="text/css" href="styles/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="sidebar"> 
+      <!-- 
+        <img src="images/snowflakes-banner.png" alt=""/>
+      -->    
+      <div id="sidebar__portrait">
 	
-      <img src="images/robin-100.jpg" alt="robin"/>
+        <img src="images/robin.jpg" alt="robin"/>
 	  
+      </div>
+	  <p class="name">2017</p>
+      <p class="jobrole">ADVENT</p>
+	  
+        <a href="#contact">
+     
+	  <div class="button">
+        <p>README</p>
+		</a>
+      </div>
     </div>
 	
-	<p class="name">Xmas 2017</p>
-    <p class="jobrole">ADVENT CALENDAR</p>
-<!--	<p class="jobrole">Coding Log</p> -->
-
-    <a href="#contact">
-      <div class="button">
-        <p>README</p>
-      </div>
-    </a>
-	
-  </div>
-  <div id="title">
-    <h1 style="color: #0ea4fd;">'Tis the season to be jolly</h1> 
-	
-  </div>
+    <div id="title">
   
-  <ul id="grid" class="clr">
+      <h1 style="color: #0ea4fd;">'Tis the season to be jolly</h1> 
+	
+    </div>
+  
+    <ul id="grid" class="clr">
 
-    <li>
-      <a href="#item1">
-        <div class="hexagon">
-          <img src="images/snowflakes-11.png" alt="Snowflake-1"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-	
-	<li>
-      <a href="#item2">
-        <div class="hexagon">
-          <img src="images/snowflakes-22.png" alt="Snowflake-2"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-	
-    <li>
-      <a href="#item3">
-        <div class="hexagon">
-          <img src="images/snowflakes-33.png" alt="Snowflake-3"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-	  
-	  
- <li>
-      <a href="#item4">
-        <div class="hexagon">
-          <img src="images/snowflakes-44.png" alt="Snowflake-4"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-	
-   <li>
-      <a href="#item5">
-        <div class="hexagon">
-          <img src="images/snowflakes-55.png" alt="Snowflake-5"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-	
-
-    <li>
-      <a href="#item6">
-        <div class="hexagon">
-          <img src="images/snowflakes-66.png" alt="Snowflake-6"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-	<li>
-      <a href="#item7">
-        <div class="hexagon">
-          <img src="images/snowflakes-77.png" alt="Snowflake-7"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item8">
-        <div class="hexagon">
-          <img src="images/snowflakes-88.png" alt="Snowflake-8"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item9">
-        <div class="hexagon">
-          <img src="images/snowflakes-99.png" alt="Snowflake-9"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item10">
-        <div class="hexagon">
-          <img src="images/snowflakes-1010.png" alt="Snowflake-10"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item11">
-        <div class="hexagon">
-          <img src="images/snowflakes-1111.png" alt="Snowflake-11"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item12">
-        <div class="hexagon">
-          <img src="images/snowflakes-1212.png" alt="Snowflake-12"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item13">
-        <div class="hexagon">
-          <img src="images/snowflakes-1313.png" alt="Snowflake-13"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item14">
-        <div class="hexagon">
-          <img src="images/snowflakes-1414.png" alt="Snowflake-14"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item15">
-        <div class="hexagon">
-          <img src="images/snowflakes-1515.png" alt="Snowflake-15"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item16">
-        <div class="hexagon">
-          <img src="images/snowflakes-1616.png" alt="Snowflake-16"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item17">
-        <div class="hexagon">
-          <img src="images/snowflakes-1717.png" alt="Snowflake-17"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item18">
-        <div class="hexagon">
-          <img src="images/snowflakes-1818.png" alt="Snowflake-18"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-        <li>
-      <a href="#item19">
-        <div class="hexagon">
-          <img src="images/snowflakes-1919.png" alt="Snowflake-19"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item20">
-        <div class="hexagon">
-          <img src="images/snowflakes-2020.png" alt="Snowflake-20"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item21">
-        <div class="hexagon">
-          <img src="images/snowflakes-2121.png" alt="Snowflake-21"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item22">
-        <div class="hexagon">
-          <img src="images/snowflakes-2222.png" alt="Snowflake-22"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-        <li>
-      <a href="#item23">
-        <div class="hexagon">
-          <img src="images/snowflakes-2323.png" alt="Snowflake-23"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item24">
-        <div class="hexagon">
-          <img src="images/snowflakes-2424.png" alt="Snowflake-24"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-
-	<!--	<img src="images/snowflakes.png" alt="Snowflakes"/>
-	
-	
-     <li>
-      <a href="#item25">
-        <div class="hexagon">
-          <img src="images/" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-     <li>
-      <a href="#item26">
-        <div class="hexagon">
-          <img src="images/" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-        <li>
-      <a href="#item27">
-        <div class="hexagon">
-          <img src="images/" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item28">
-        <div class="hexagon">
-          <img src="images/" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item29">
-        <div class="hexagon">
-          <img src="images/" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-     <li>
-      <a href="#item30">
-        <div class="hexagon">
-          <img src="images/" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
+      <li>
+        <a href="#item1">
+          <div class="hexagon">
+            <img src="images/snowflakes-11.png" alt="Snowflake-1"/>
+              <div class="overlay"></div>
+          </div>
         </a>
-    </li>
-  </ul>
-  -->
-  <div id="item1">
-    <div class="left">
-      <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+      </li>
+	
+	  <li>
+        <a href="#item2">
+          <div class="hexagon">
+            <img src="images/snowflakes-22.png" alt="Snowflake-2"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	
+      <li>
+        <a href="#item3">
+          <div class="hexagon">
+            <img src="images/snowflakes-33.png" alt="Snowflake-3"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
 	  
-      <h2>1. WINTER</h2>
-     <p>   
-       The meteorological first day of winter and there was snow dust in the air.
-     </p>
-<!--	  <h2>Coding log</h2>
-	 <p>
-	   I was coding about biodiversity and reading about typefaces and fonts.
-     </p>
--->	 
-   </div>
-   <div class="right">
- <!--   <img src="images/watercolour-op.jpg" alt="Winter watercolour"/> -->
-	<img src="images/winter.jpg" alt="Winter night road"/>
+      <li>
+        <a href="#item4">
+          <div class="hexagon">
+            <img src="images/snowflakes-44.png" alt="Snowflake-4"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
 	
-  </div>
-  
-  
-</div>
+      <li>
+        <a href="#item5">
+          <div class="hexagon">
+            <img src="images/snowflakes-55.png" alt="Snowflake-5"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	
+      <li>
+        <a href="#item6">
+          <div class="hexagon">
+            <img src="images/snowflakes-66.png" alt="Snowflake-6"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+	  <li>
+        <a href="#item7">
+          <div class="hexagon">
+            <img src="images/snowflakes-77.png" alt="Snowflake-7"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	
+      <li>
+        <a href="#item8">
+          <div class="hexagon">
+            <img src="images/snowflakes-88.png" alt="Snowflake-8"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item9">
+          <div class="hexagon">
+            <img src="images/snowflakes-99.png" alt="Snowflake-9"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item10">
+          <div class="hexagon">
+            <img src="images/snowflakes-1010.png" alt="Snowflake-10"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item11">
+          <div class="hexagon">
+            <img src="images/snowflakes-1111.png" alt="Snowflake-11"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item12">
+          <div class="hexagon">
+            <img src="images/snowflakes-1212.png" alt="Snowflake-12"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item13">
+          <div class="hexagon">
+            <img src="images/snowflakes-1313.png" alt="Snowflake-13"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item14">
+          <div class="hexagon">
+            <img src="images/snowflakes-1414.png" alt="Snowflake-14"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item15">
+          <div class="hexagon">
+            <img src="images/snowflakes-1515.png" alt="Snowflake-15"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item16">
+          <div class="hexagon">
+            <img src="images/snowflakes-1616.png" alt="Snowflake-16"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item17">
+          <div class="hexagon">
+            <img src="images/snowflakes-1717.png" alt="Snowflake-17"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item18">
+          <div class="hexagon">
+            <img src="images/snowflakes-1818.png" alt="Snowflake-18"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item19">
+          <div class="hexagon">
+            <img src="images/snowflakes-1919.png" alt="Snowflake-19"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item20">
+          <div class="hexagon">
+            <img src="images/snowflakes-2020.png" alt="Snowflake-20"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item21">
+          <div class="hexagon">
+            <img src="images/snowflakes-2121.png" alt="Snowflake-21"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item22">
+          <div class="hexagon">
+            <img src="images/snowflakes-2222.png" alt="Snowflake-22"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item23">
+          <div class="hexagon">
+            <img src="images/snowflakes-2323.png" alt="Snowflake-23"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item24">
+          <div class="hexagon">
+            <img src="images/snowflakes-2424.png" alt="Snowflake-24"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+
+	  <!--	<img src="images/snowflakes.png" alt="Snowflakes"/>
+	
+	
+      <li>
+        <a href="#item25">
+          <div class="hexagon">
+            <img src="images/" alt="Lorem Ipsum"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+	  <li>
+        <a href="#item26">
+          <div class="hexagon">
+            <img src="images/" alt="Lorem Ipsum"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item27">
+          <div class="hexagon">
+            <img src="images/" alt="Lorem Ipsum"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item28">
+          <div class="hexagon">
+            <img src="images/" alt="Lorem Ipsum"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item29">
+          <div class="hexagon">
+            <img src="images/" alt="Lorem Ipsum"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+	  
+      <li>
+        <a href="#item30">
+          <div class="hexagon">
+            <img src="images/" alt="Lorem Ipsum"/>
+              <div class="overlay"></div>
+          </div>
+        </a>
+      </li>
+    </ul>
+    -->
+	
+    <div id="item1">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+	      <h2>1. WINTER</h2>
+            <p>   
+              The meteorological first day of winter and there was snow dust in the air.
+            </p>
+	  </div>
+      <div class="right">
+	    <img src="images/winter.jpg" alt="Winter night road"/>
+	  </div>
+    </div>
  
-<div id="item2">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+    <div id="item2">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>2.SNOWFLAKES-TREE</h2>
+	        <p>
+			  Geometric patterns, the shape of a tree, glints of sparkliness to light the long dark days ahead. Decorating trees with fairy lights has replaced November bonfires and fireworks.
+	        </p>
+          <img src="images/snowflakes-banner.png" alt=""/>
+      </div>
+      <div class="right">
+        <img src="images/snowflakes-tree.png" alt="Snowflakes Tree"/> 
+      </div>
+    </div>
+
+
+    <div id="item3">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>3. OH DEER</h2>
+            <p>
+              In traditional lore, Santa Claus's sleigh is led by eight      reindeer: Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Dunder, and Bliksem.  (Dunder and Bliksem are the dutch words for thunder and lightning.) Rudolph the Red Nosed Reindeer joined the team in the early 20th-century followed later by his brother Ralph the Infrared Nosed Reindeer.
+            </p>
+          <img src="images/snowflakes.png" alt=""/>
+      </div>
+      <div class="right">
+        <blockquote>"Too many colourful snowflakes, and I'm not a reindeer."
+		</blockquote>
+          <img src="images/deer.jpg" alt="Deer"/>
+      </div>
+    </div>
+
+    <div id="item4">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>4. FOX</h2>
+            <p>
+	          In the night I stood and watched the clouds softly drifting. Mild from 
+              the West, around the Supermoon reflected sunlight. The damp and dripping hedgerow sparkling. From the shadows into the clearing light, a small 
+              furry animal, pale, slight hint of rust came towards me nose to ground. 
+              A cat? No. Tail too bushy, nose too pointy. It looked up at me then 
+              quietly turned around and left.
+	        </p>
+	        <p>
+	          The shy little fox has nothing to offer . . . or so he thinks.
+              The Christmas Fox by Anik McGrory tells of more.
+	        </p>
 	
-    <h2>2.SNOWFLAKES-TREE</h2>
-	<p>Geometric patterns, the shape of a tree, glints of sparkliness
-	to light the long dark days ahead. Decorating trees with fairy lights
-	has replaced November bonfires and fireworks.
-	</p>
-<!--	 <h2>Coding log</h2>
-    <p>
-     Today was all about colourful snowflake images, and <em>Git</em>,
-	 and trees and branches and logs.
-   </p>
--->
-   <img src="images/snowflakes-banner.png" alt=""/>
- </div>
- <div class="right">
-  <img src="images/snowflakes-tree.png" alt="Snowflakes Tree"/>
-  	 
-</div>
-</div>
+      </div>
+      <div class="right">
+        <img src="images/animals-1.jpg" alt="Bats and moon, badger and fox"/>
+      </div>
+    </div>
 
+    <div id="item5">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>5. LIGHT ANGEL</h2>
+            <p>
+              From Christmas Land in the Ore Mountains of Germany.
+            </P>
+			<!--
+			<p>
+			  The centre for a highly stylised and artistic type of wood turning, carving and painting. Historically an alternative income for miners in times of hardship, Ore Mountain folk art, takes the form of smoking figures, Christmas pyramids, candle arches, nutcrackers, miners' and angels' figures, all of which are used as Christmas decorations. It was a traditional duty of every Ore Mountain man, when he became a father, to carve a miner or an angel for his child. The miner for a son and the angel for a daughter. At Christmas time, in order to light the way for their menfolk in the dark winter's night, the women placed the Light Miner (Lichterbergmann) and the Light Angel (Lichterengel), in windows to act as guardians and light-bearers on the dark and difficult road into the mine.
+            </p> 
+			-->
+      </div>
+      <div class="right">
+        <img src="images/angel-1.png" alt="Light Angel wood carving"/>
+      </div>
+    </div>
 
-<div id="item3">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-	
-    <h2>3. OH DEER</h2>
-    <p>
-   In traditional lore, Santa Claus's sleigh is led by eight reindeer: Dasher, Dancer, Prancer, Vixen, Comet, Cupid, Dunder, and Bliksem.  (Dunder and Bliksem are the dutch words for thunder and lightning.) Rudolph the Red Nosed Reindeer joined the team in the early 20th-century followed later by his brother Ralph the Infrared Nosed Reindeer.
-   </p>
-<!--	  
-   <h2>Coding log</h2>
-   <p>
-   Updating this page today in Github in the browser. Got a bit lost for a while with pull requests, merging branches and gettin gh-pages to display the project.  So quite a bit of searching with DuckDuckGo through GitHub help pages, StackOverflow answers and various walkthroughs.
-   </p>
-   <p>
-   Most of the suggestions refer to command line routes and I usually access GitHub through the browser. It seems to take me ages with GitHub to figure out how to do things.
-   </p>
--->
-   <img src="images/snowflakes.png" alt=""/>
- </div>
- <div class="right">
- <blockquote>"Too many colourful snowflakes, and I'm not a reindeer."</blockquote>
-  <img src="images/deer.jpg" alt="Deer"/>
-</div>
-</div>
+    <div id="item6">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>6. CHRISTMAS ELF</h2>
+	        <P>
+              Ingenious craftsmen, Christmas elves are busy helping Santa make toys for children in his workshop. This was originally thought to be near the North Pole, but it now seems more likely to be in Lapland a better place to keep reindeer. They are said to be  immortal and possess magical powers. An explanation perhaps for the amazing variety of ever increasingly complex devices wrought to amuse and entertain children by these good hearted but sometimes mischievous, highly skilled, rather fairy like gnomes.
+	        <P>   
+      </div>
+      <div class="right">
+        <img src="images/elf.jpg" alt="Christmas Elf"/>
+      </div>
+    </div>
 
+    <div id="item7">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>7. KOCH SNOWFLAKE</h2>
+            <p>
+              A snowflake within a snowflake! The Koch snowflake is an early   type of fractal curve.  The snowflake has a finite area bounded by an infinitely long line.
+            </p>
+      </div>
+    <div class="right">
+      <a title="By António Miguel de Campos (self made based in own JAVA animation) [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AVon_Koch_curve.gif"><img width="64px" alt="Von Koch curve" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Von_Koch_curve.gif"/></a>
+        <img src="images/7" alt="Koch snowflake"/>
+      </div>
+    </div>
 
-<div id="item4">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-	
-    <h2>4. FOX</h2>
-    <p>
-	In the night I stood and watched the clouds softly drifting. Mild from 
-    the West, around the Supermoon reflected sunlight. The damp and dripping hedgerow sparkling. From the shadows into the clearing light, a small 
-    furry animal, pale, slight hint of rust came towards me nose to ground. 
-    A cat? No. Tail too bushy, nose too pointy. It looked up at me then 
-    quietly turned around and left.
-	</p>
-	<p>
-	The shy little fox has nothing to offer . . . or so he thinks.
-    The Christmas Fox by Anik McGrory tells of more.
-	</p>
-<!--	
-	<h2>Coding Log</h2>
-    <p>
-    Today I worked with images. I needed to know more about sizes for responsive web design and software and workflow to manage them. Then for practice improving this page, trying things. Naming and placing files and linking in the HTML, finding and trying hex colours for backgrounds in the CSS.
-    </p>
--->
- </div>
- <div class="right">
-  <img src="images/animals-1.jpg" alt="Bats and moon, badger and fox"/>
-</div>
-</div>
+    <div id="item8">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2> 8. YULE GOAT</h2>
+            <p>
+	          Popular in Scandinavian countries the Julbocken is a straw figurine of a goat, traditionally made from the last grain of the harvest, bundled in red ribbons and kept as a token of hope for the New Year.
+            </p>
+      </div>
+      <div class="right">
+        Title="Julbock, John Bauer [Public domain], via Wikimedia Commons" 
+        <img title="John Bauer [Public domain], via Wikimedia Commons" src="images/256px-John_Bauer_Julbock.jpg" alt="Yule Goat"/>
+      </div>
+    </div>
 
+    <div id="item9">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>9. CHRISTMAS MARKET</h2>
+            <h3>
+              Anthropophony
+            </h3>
+	        <audio controls>
+              <source src="audio/412824_blukotek_market-bazaar (online-audio-converter.com).ogg" type="audio/ogg">
+              <source src="audio/412824_blukotek_market-bazaar (online-audio-converter.com)" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
 
-
-<div id="item5">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2>5. LIGHT ANGEL</h2>
-
-    <p>
-    German Christmas Land in the Ore Mountains of Germany is the centre for a highly stylised and artistic type of wood turning, carving and painting. Historically an alternative income for miners in times of hardship, Ore Mountain folk art, takes the form of smoking figures, Christmas pyramids, candle arches, nutcrackers, miners' and angels' figures, all of which are used as Christmas decorations. It was a traditional duty of every Ore Mountain man, when he became a father, to carve a miner or an angel for his child. The miner for a son and the angel for a daughter. At Christmas time, in order to light the way for their menfolk in the dark winter's night, the women placed the Light Miner (Lichterbergmann) and the Light Angel (Lichterengel), in windows to act as guardians and light-bearers on the dark and difficult road into the mine.
-    </p> 
-<!--
-    <h2><i>Coding log</i></h2>
-    <P>
-    As well as coding this project on <em>Notepad++</em>, some image adjustments with <em>Paint.net</em>, content update and <em>GitHub</em> version control practice I watched a <em>#commitmas</em> video
-    about <em>Continuous Integration and Continuous Deployment,</em><b> CI/CD</b>. Also read about<em> Kubernetes</em>, <b>K8S</b>. Am absorbing some of the core concepts. Clusters, pods, replication controllers. Virtualisation and the hypervisor. Docker
-    </p>
--->   
- </div>
- <div class="right">
-  <img src="images/angel-1.png" alt="Light Angel wood carving"/>
-</div>
-</div>
-
-
-<div id="item6">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-	
-    <h2>6. CRAFTSMAN ELF</h2>
-	<P>
-    Ingenious makers, the elves are busy helping Santa make toys for children in his workshop. This was originally thought to be near the North Pole, but it now seems more likely to be in Lapland a better place to keep reindeer. They are said to be  immortal and possess magical powers. An explanation perhaps for the amazing variety of ever increasingly complex devices wrought to amuse and entertain children by these good hearted but sometimes mischievous, highly skilled, rather fairy like gnomes.
-	<P>
-<!--	
-      <h2><i>Coding Log</i></h2>
-	  <p>
-        Two web development courses today with <em>FutureLearn</em>:
-      </p>
-	  <p>
-        <em>Big Data and the Environment</em>
-      </p>
-	  <p>
-	    Some good lessons on data visualisation.
-        There were also useful links from other learners in the comments, one I particularly liked about <b>glyphs</b>.
-       </p>
-	   <p>
-         <em>Digital Accessibility</em>.
-	   </p> 
-		  <blockquote>
-            “You could boil the ocean when you think about accessibility!”
-            David Caldwell, the IT Accessibility Manager at Barclays Bank.
-		  </blockquote>
-
-		<p>
-         For starters this was a helpful phrase that describes something I encounter frequently whilst learning to code. An impossible task that's hard to know where to begin! So I was glad of some pointers to small steps I can take immediately as a baseline.
-	   </p>
-	   <p>
-	     To understand the principles of ARIA(Accessible Rich Internet Applications)in HTML
-         Mobile-first, responsive design more imporant than software accessibility.
-         An ability to adapt and change as things move so very quickly in tech.
--->	   </p>
-	   
- </div>
- <div class="right">
-  <img src="images/elf.jpg" alt="Christmas Elf"/>
-</div>
-</div>
-
-
-<div id="item7">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2>7. KOCH SNOWFLAKE</h2>
-    <p>
-     A snowflake within a snowflake! The Koch snowflake is an early type of fractal curve.  The snowflake has a finite area bounded by an infinitely long line.
-    </p>
-	<p>
-	
-<!--
-    <h2><i>Coding  Log</i></h2>
-    <p>	
-    Did eighteen different colour snowflakes, resizing to < 100 pixels for each image. Saved them as .png files, two of each, one with a number and one without as I'm still not sure about the colour contrasts for readability.
-	</p>
-    <p>
-    Tidied up the HTML file whilst adding the images and paid some attention to indentation in NOTEPAD++ tried different background colours in the stylesheet for the snowflake page finding the hex values with the colour wheel in PAINT.net. 
-    <p>
-    Read and thought about recursion, (when I googled recursion it asked if I meant recursion). The little Schemer and LISP.  
-    </p>
-	<p>
-    Watched a video with Cory Doctorow about cyber security and read some of the Sophos Threatsaurus.
-    </p>
--->
- </div>
- <div class="right">
-  <a title="By António Miguel de Campos (self made based in own JAVA animation) [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AVon_Koch_curve.gif"><img width="64px" alt="Von Koch curve" src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Von_Koch_curve.gif"/></a>
-  <img src="images/7" alt="Koch snowflake"/>
-</div>
-</div>
-
-
-<div id="item8">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2> 8. YULE GOAT</h2>
-    <p>
-	  Popular in Scandinavian countries the Julbocken is a straw figurine of a goat, traditionally made from the last grain of the harvest, bundled in red ribbons and kept as a token of hope for the New Year.
-    </p>
-	  <!--
-	<h2><i>Coding log</i></h2>
-    <p>	
-      Time gathering and sorting out content:  1hr ++
-      Time coding and uploading to GitHub:
-    </p>
-	<p>
-      Checked the difference between <b>ANSI</b>, usually single-byte ISO/IEC 8859 encodings (i.e.in the Microsoft Notepad menus is really "System Code Page", non-Unicode, legacy encoding), and <b>UTF-8</b>(is encoding. an algorithm that translates numbers to binary) and <b>Unicode</b>(is a character set where characters have unique numbers "code points", e.g. A is 42.
-    </p>
-	<p>
-      Also <b>Unicode big endian</b> where <em>endianness</em> refers to the sequential order in which bytes are arranged into larger numerical values when stored in memory or when transmitted over digital links.  Two conflicting and incompatible formats are in common use: words may be represented in big-endian or little-endian format, depending on whether bits or bytes or other components are ordered from the big end (most significant bit) or the little end (least significant bit).
-	</p>
--->
- </div>
- <div class="right">
-  Title="Julbock, John Bauer [Public domain], via Wikimedia Commons" 
-  <img title="John Bauer [Public domain], via Wikimedia Commons" src="images/256px-John_Bauer_Julbock.jpg" alt="Yule Goat"/>
-</div>
-</div>
-
-
-<div id="item9">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2>9. CHRISTMAS MARKET</h2>
-    <p>
-    Anthropopheny
-   </p>
-	
-	    <audio controls>
-  <source src="audio/412824_blukotek_market-bazaar (online-audio-converter.com).ogg" type="audio/ogg">
-  <source src="audio/412824_blukotek_market-bazaar (online-audio-converter.com)" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<p>
-<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
-<img src="http://i.creativecommons.org/p/mark/1.0/88x31.png"
+            <p>
+              <a href="https://freesound.org/people/blukotek/sounds/412824/">market bazaar.wav</a> by <a href="https://freesound.org/people/blukotek/">blukotek</a> | License: Creative Commons 0 
+             <br>
+               <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
+                 <img src="http://i.creativecommons.org/p/mark/1.0/88x31.png"
      style="border-style: none;" alt="Public Domain Mark" />
-</a>
-<br />
-This work is free of known copyright restrictions.
-</p>
+               </a>
+            </p>
+      </div>
+      <div class="right">
+        <img src="images/christmas-market.jpg" alt="Teddy and Rabbit at Christmas-market"/>
+      </div>
+    </div>
+	
+    <div id="item10">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>10. REINDEER HERDING</h2>
+	        <h3>Biophony</h3>
+	        <audio controls>
+              <source src="audio/250313_ylearkisto_lappi-poroerotus-porot-aitauksessa-lapland-reindeer-round-up-separation-big-herd-of-reindeer-in-a-fencing-bells-grunting (online-audio-converter.com).ogg" type="audio/ogg">
+              <source src="audio/250313_ylearkisto_lappi-poroerotus-porot-aitauksessa-lapland-reindeer-round-up-separation-big-herd-of-reindeer-in-a-fencing-bells-grunting (online-audio-converter.com)" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>
+              <a href="https://freesound.org/people/YleArkisto/sounds/250313/">Lappi, poroerotus, porot aitauksessa / Lapland, reindeer round-up, separation, big herd of reindeer in a fencing, bells, grunting </a> by <a href="https://freesound.org/people/YleArkisto/">YleArkisto</a> | derivative files converted to .mp3 and .ogg | License: Attribution 
+            <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+      </div>
+      <div class="right">
+        <img src="images/reindeer.jpg" alt="Herding reindeer"/>
+      </div>
+    </div>
 
+    <div id="item11">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>11. THE SOUND OF SNOWFLAKES</h2>
+            <h3>Geophony</h3>
+	        <audio controls>
+              <source src="audio/178155_timbre_remix-of-178150-klankbeeld-snow-on-umbrella-eq-130214-01 (online-audio-converter.com).ogg" type="audio/ogg">
+              <source src="audio/178155_timbre_remix-of-178150-klankbeeld-snow-on-umbrella-eq-130214-01 (online-audio-converter.com).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>
+              <a href="https://freesound.org/people/Timbre/sounds/178155/">Remix of 178150__klankbeeld__snow-on-umbrella-eq-130214-01.flac</a> by <a href="https://freesound.org/people/Timbre/">Timbre</a> | Derivative files converted to .mp3 and .ogg | License: Attribution Noncommercial
+            <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+            </p>
+      </div>
+      <div class="right">
+        <img src="images/weather.jpg" alt="Snow on my umbrella. Cartoon gnome and snowman"/>  
+      </div>
+    </div>
 
-   </div>
- <div class="right">
-  <img src="images/christmas-market.jpg" alt="Teddy and Rabbit at Christmas-market"/>
-</div>
-</div>
-<div id="item10">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2>10. HERDING REINDEER</h2>
-	<p>Biophany</p>
-		
-	    <audio controls>
-  <source src="audio/250313_ylearkisto_lappi-poroerotus-porot-aitauksessa-lapland-reindeer-round-up-separation-big-herd-of-reindeer-in-a-fencing-bells-grunting (online-audio-converter.com).ogg" type="audio/ogg">
-  <source src="audio/250313_ylearkisto_lappi-poroerotus-porot-aitauksessa-lapland-reindeer-round-up-separation-big-herd-of-reindeer-in-a-fencing-bells-grunting (online-audio-converter.com)" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<p>
-<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
-<img src="http://i.creativecommons.org/p/mark/1.0/88x31.png"
-     style="border-style: none;" alt="Public Domain Mark" />
-</a>
-<br />
-This work is free of known copyright restrictions.
-</p>
+    <div id="item12">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>12. SHEEP FLOCK</h2>
+	        <h3>Camacho</h3>
+		    <audio controls>
+              <source src="audio/196671_soundmary_sheep-in-field (online-audio-converter.com).ogg" type="audio/ogg">
+              <source src="audio/196671__soundmary__sheep-in-field" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>
+              <a href="https://freesound.org/people/soundmary/sounds/196671/">sheep in field.mp3</a> by <a href="https://freesound.org/people/soundmary/">soundmary</a> | License: Attribution
+            <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>	
+      </div>
+      <div class="right">
+        <img src="images/camacho.jpg" alt="Lorem Ipsum"/>
+      </div>
+    </div>
 
- </div>
- <div class="right">
-  <img src="images/reindeer.jpg" alt="Herding reindeer"/>
-</div>
-</div>
+    <div id="item13">
+      <div class="left">
+        <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+          <h2>13. PARTRIDGE</h2>
+	        <h3>Finding The Pear Tree</h3>
+			<audio controls>
+              <source src="audio/96460_123a4567_ambience-pigeons-roosters-hens (online-audio-converter.com).ogg" type="audio/ogg">
+              <source src="audio/96460__123a4567__ambience-pigeons-roosters-hens.mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>
+              <a href="https://freesound.org/people/123a4567/sounds/96460/">ambience_pigeons_roosters_hens.mp3</a> by <a href="https://freesound.org/people/123a4567/">123a4567</a> | License: Sampling+
+            <br>
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+      </div>	
+      <div class="right">
+        <img src="images/Partridge.jpg" alt="Lorem Ipsum"/>
+      </div>
+    </div>
 
-
-<div id="item11">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2>11. THE SOUND OF SNOWFLAKES</h2>
-    
-	<p>
-      Geophony
-    </p>
-	    <audio controls>
-  <source src="audio/178155_timbre_remix-of-178150-klankbeeld-snow-on-umbrella-eq-130214-01 (online-audio-converter.com).ogg" type="audio/ogg">
-  <source src="audio/178155_timbre_remix-of-178150-klankbeeld-snow-on-umbrella-eq-130214-01 (online-audio-converter.com).mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<p>
-<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
-<img src="http://i.creativecommons.org/p/mark/1.0/88x31.png"
-     style="border-style: none;" alt="Public Domain Mark" />
-</a>
-<br />
-This work is free of known copyright restrictions.
-</p>
-
- </div>
- <div class="right">
-  <img src="images/weather.jpg" alt="Snow on my umbrella. Cartoon gnome and snowman"/>  
-</div>
-</div>	    
 <!--
-
-<div id="item12">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2>ITEM TITLE</h2>
-    <p>
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel molestie orci. Nulla egestas libero tellus, rhoncus facilisis nulla eleifend eget. Donec quis nunc sodales turpis gravida consectetur eu ut diam. Vestibulum ut ante justo. Nunc ac tincidunt turpis. Duis at massa consectetur, porta augue sed, elementum est. In hac habitasse platea dictumst. Duis sed sollicitudin risus. Donec fermentum laoreet odio. Nullam nec mi et mauris ultrices dictum. Vestibulum malesuada mattis ornare. Ut sit amet tellus nec neque tempus scelerisque. Etiam pretium felis et augue efficitur, eu pharetra sapien consequat. Aenean imperdiet ante mi, eget condimentum mauris imperdiet pulvinar. Mauris ut suscipit eros, sit amet congue erat. Fusce nec augue est.
-   </p>
- </div>
- <div class="right">
-  <img src="images/12" alt="Lorem Ipsum"/>
-</div>
-</div>
-<div id="item13">
-  <div class="left">
-    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-    <h2>ITEM TITLE</h2>
-    <p>
-     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel molestie orci. Nulla egestas libero tellus, rhoncus facilisis nulla eleifend eget. Donec quis nunc sodales turpis gravida consectetur eu ut diam. Vestibulum ut ante justo. Nunc ac tincidunt turpis. Duis at massa consectetur, porta augue sed, elementum est. In hac habitasse platea dictumst. Duis sed sollicitudin risus. Donec fermentum laoreet odio. Nullam nec mi et mauris ultrices dictum. Vestibulum malesuada mattis ornare. Ut sit amet tellus nec neque tempus scelerisque. Etiam pretium felis et augue efficitur, eu pharetra sapien consequat. Aenean imperdiet ante mi, eget condimentum mauris imperdiet pulvinar. Mauris ut suscipit eros, sit amet congue erat. Fusce nec augue est.
-   </p>
- </div>
- <div class="right">
-  <img src="images/13" alt="Lorem Ipsum"/>
-</div>
-</div>
 <div id="item14">
   <div class="left">
     <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
@@ -725,11 +649,12 @@ This work is free of known copyright restrictions.
 </div>
 </div>
 -->
-<div id="contact">
-  <a href="#"><div class="button"><p>&lt;&lt; CLOSE</p></div></a>
- <div id="sidebar__social-icons">    
-  <img src="images/gipsi-1.png" alt="gipsi"/>
-  </div>
+    <div id="contact">
+      <a href="#"><div class="button"><p>&lt;&lt; CLOSE</p></div></a>
+      <div id="sidebar__social-icons">    
+        <img src="images/gipsi-1.png" alt="gipsi"/>
+		<h2 style="color: pink;">CODES DECEMBER</h2>
+	  </div>
       <div id="sidebar__social-icons"><!--
       --><div class="sidebar__social-icon"><a href="https://www.freecodecamp.org/gipsi"><i class="fa fa-free-code-camp" style="font-size:24px;color:lightgreen;">
        </i>
@@ -757,20 +682,16 @@ This work is free of known copyright restrictions.
         
       </div>
       -->
-    </div> 
-
-
-  <img src="images/snowflakes.png" alt=""/>
+      </div> 
+        <img src="images/snowflakes.png" alt=""/>
       <div>
-	<p style="color: white;">
-	Hexa Pure CSS Template by codin@codesmite
-    <br>
-	Images from Pixabay
-	</p>
-	</div>
-</div>
-
-</body>
+	    <p style="color: pink;">
+	      Hexa Pure CSS Template by codin@codesmite
+        <br>
+	      Images from Pixabay
+	    </p>
+	  </div>
+    </div>
+  </body>
 </html>
-
  
